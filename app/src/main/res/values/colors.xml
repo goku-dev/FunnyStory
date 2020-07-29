@@ -18,4 +18,10 @@
     <color name="colorBlue">#56ACBA</color>
     <color name="colorBlueNew">#1F3E64</color>
     <color name="colorwhite">#FFFFFF</color>
+    <color name="colorYellowAlpha">#FFEE71</color>
+    <color name="colorBlueDraw">#1BA5F5</color>
+    <color name="colorStartBlue">#2399F7</color>
+    <color name="colorStartWhite">#E2E1E1</color>
+    <color name="colorBlueAlpha">#6ABBFC</color>
+    <color name="colorBluelight">#90DBFD</color>
 </resources>

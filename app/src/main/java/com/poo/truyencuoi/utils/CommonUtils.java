@@ -1,9 +1,10 @@
-package com.poo.truyencuoi.singleton;
+package com.poo.truyencuoi.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.poo.truyencuoi.entity.TruyenCuoiEntity;
+import com.poo.truyencuoi.App;
+import com.poo.truyencuoi.model.entity.TruyenCuoiEntity;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -11,6 +12,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class CommonUtils {
+    private static final String FAVORITE_FILE_NAME = "favorite.txt";
     private static CommonUtils instance;
 
     private CommonUtils() {
@@ -38,7 +40,7 @@ public class CommonUtils {
                     continue;
                 }
                 if (line.contains("','0');")) {
-                    listData.add(new TruyenCuoiEntity(title, content));
+                    listData.add(new TruyenCuoiEntity(title, content, false));
                     title = null;
                     content = "";
                     continue;
@@ -53,6 +55,10 @@ public class CommonUtils {
 
     }
 
+    public void saveListFavorite(String path) {
+
+    }
+
     public Bitmap readFileImage(String path) {
         try {
             InputStream inputStream = App.getInstance().getAssets().open(path);
@@ -62,5 +68,7 @@ public class CommonUtils {
             return null;
         }
     }
+
+
 
 }

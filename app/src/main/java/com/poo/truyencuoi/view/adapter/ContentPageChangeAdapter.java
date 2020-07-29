@@ -1,4 +1,4 @@
-package com.poo.truyencuoi.adapter;
+package com.poo.truyencuoi.view.adapter;
 
 import androidx.viewpager.widget.ViewPager;
 

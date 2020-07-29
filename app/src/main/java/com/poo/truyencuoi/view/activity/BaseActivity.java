@@ -1,4 +1,4 @@
-package com.poo.truyencuoi.activity;
+package com.poo.truyencuoi.view.activity;
 
 import android.os.Bundle;
 import android.view.View;

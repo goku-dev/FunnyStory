@@ -1,9 +1,9 @@
-package com.poo.truyencuoi.logic;
+package com.poo.truyencuoi.model.logic;
 
 import android.graphics.Bitmap;
 
-import com.poo.truyencuoi.entity.TruyenCuoiEntity;
-import com.poo.truyencuoi.singleton.CommonUtils;
+import com.poo.truyencuoi.model.entity.TruyenCuoiEntity;
+import com.poo.truyencuoi.utils.CommonUtils;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.poo.truyencuoi.adapter;
+package com.poo.truyencuoi.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.poo.truyencuoi.R;
-import com.poo.truyencuoi.entity.TruyenCuoiEntity;
+import com.poo.truyencuoi.model.entity.TruyenCuoiEntity;
 
 import java.util.List;
 

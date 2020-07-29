@@ -1,4 +1,4 @@
-package com.poo.truyencuoi.logic;
+package com.poo.truyencuoi.model.logic;
 
 import java.util.ArrayList;
 import java.util.List;

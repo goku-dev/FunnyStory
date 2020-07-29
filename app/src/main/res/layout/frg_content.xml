@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar_truyen_cuoi" />
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="@dimen/d_56"
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </androidx.viewpager.widget.ViewPager>
+    <ImageView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="right"
+        android:id="@+id/iv_star"
+        android:layout_width="@dimen/d_30"
+        android:layout_height="@dimen/d_30"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/bg_star"/>
+
+</FrameLayout>

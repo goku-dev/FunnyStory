@@ -1,4 +1,4 @@
-package com.poo.truyencuoi.activity;
+package com.poo.truyencuoi.view.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,11 +24,11 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 nextActivity();
             }
-        }, 2000);
+        }, 500);
     }
 
     private void nextActivity() {
-        startActivity(new Intent(this, StoryActivity.class));
+        startActivity(new Intent(this, MainActivity.class));
         finish();
     }
 }

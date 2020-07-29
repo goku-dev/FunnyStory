@@ -26,8 +26,9 @@
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/d_25" />
 
+
     <ImageView
-        android:layout_width="@dimen/d_50"
+        android:layout_width="@dimen/d_30"
         android:layout_height="match_parent"
         android:src="@drawable/ic_bookmark"
         android:tint="@color/colorWhite" />
